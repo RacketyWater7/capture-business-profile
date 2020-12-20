@@ -8,12 +8,12 @@ import goodtimes from "../img/goodtimes-small.png";
 //Animations
 import { motion } from "framer-motion";
 import {
+  sliderContainer,
+  slider,
   pageAnimation,
   fade,
   photoAnim,
   lineAnim,
-  slider,
-  sliderContainer,
 } from "../animation";
 
 const OurWork = () => {
@@ -59,8 +59,6 @@ const OurWork = () => {
   );
 };
 
-export default OurWork;
-
 const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
@@ -104,3 +102,5 @@ const Frame3 = styled(Frame1)`
 const Frame4 = styled(Frame1)`
   background: #8effa0;
 `;
+
+export default OurWork;
